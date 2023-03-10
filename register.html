@@ -44,6 +44,8 @@
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_subject" value="New submission!">
             <input type="text" placeholder="Name" autocomplete="off" id="name" name="name" required class="field">
+            <input type="number" placeholder="Age" autocomplete="off" id="age" name="age" required class="field">
+            <input type="text" placeholder="Country" autocomplete="off" id="country" name="country" required class="field">
             <select id="gender" name="gender" required class="field">
                 <option disabled selected value class="option">Gender</option>
                 <option value="Male" class="option">Male</option>
@@ -52,6 +54,8 @@
             <input type="hidden" name="_autoresponse" value="Thank You for registering at Al-Hameed Islamic Institute. We will reach out to you on WhatApp as soon as possible.">
             <input type="email" placeholder="Email" autocomplete="off" id="email" name="email" class="field" required>
             <input type="number" placeholder="Whatsapp no. +" autocomplete="off" id="number" name="number" class="field" required>
+            <input type="text" placeholder="Spoken Language(s)" autocomplete="off" id="language" name="language" required class="field">
+            <input type="text" placeholder="Job/Business (optional)" autocomplete="off" id="job" name="job" class="field">
             <fieldset id="checkbox">
                 <legend class="label">Course(s)</legend>
                 <label for="nq" class="check">
@@ -154,7 +158,7 @@
         width: 100vw;
         margin: auto;
         margin-bottom: 100px;
-        height: 1400px;
+        height: 1800px;
         padding: 30px;
         display: flex;
         flex-direction: column;
